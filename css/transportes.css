@@ -18,7 +18,7 @@ header h1 {
     display: inline-block;
     position: relative;
     bottom: 35px;
-    margin-left: 50px;
+    margin-left: 15px;
 }
 nav {
     background-color: #6ea9ed;
@@ -47,6 +47,7 @@ footer {
     background-color: #ddd;
     padding: 20px 0;
     text-align: center;
+    margin-top: 20px;
 }
 
 .holder {
@@ -68,7 +69,19 @@ h2 {
 .testimonios {
     width: 25%;
 }
-testimonio {
+.testimonio {
     background-color: #ddd;
     padding: 16px;
+}
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+}
+.testimonio .autor {
+    font-size: 12px;
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
 }

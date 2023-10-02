@@ -274,4 +274,42 @@ Hay más...
         max-width: 220px;
         margin: 0 auto;
     }
+    .personas {
+        flex-wrap: wrap;
+    }
+    .persona {
+        width: 47%;
+        margin-bottom: 10px;
+    }
+
+    .contacto {
+        flex-direction: column;
+    }
+
+    header .holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .logo img {
+        max-width: 80px;
+    }
+    header h1 {
+        position: static;
+        font-size: 30px;
+    }
+
+    nav ul.holder {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:320px){
+    header .holder {
+        flex-direction: column;
+    }
+    header h1 {
+        margin: 10px;
+        font-size: 20px;
+    }
 }
